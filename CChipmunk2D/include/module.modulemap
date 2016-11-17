@@ -1,0 +1,5 @@
+module CChipmunk2D {
+  header "chipmunk/chipmunk_private.h"
+  header "chipmunk/chipmunk_private.h"
+  export *
+}
