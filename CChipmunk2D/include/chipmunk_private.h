@@ -22,8 +22,8 @@
 #ifndef CHIPMUNK_PRIVATE_H
 #define CHIPMUNK_PRIVATE_H
 
-#include "chipmunk/chipmunk.h"
-#include "chipmunk/chipmunk_structs.h"
+#include "chipmunk.h"
+#include "chipmunk_structs.h"
 
 #define CP_HASH_COEF (3344921057ul)
 #define CP_HASH_PAIR(A, B) ((cpHashValue)(A)*CP_HASH_COEF ^ (cpHashValue)(B)*CP_HASH_COEF)

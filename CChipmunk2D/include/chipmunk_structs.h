@@ -25,7 +25,7 @@
 #ifndef CHIPMUNK_STRUCTS_H
 #define CHIPMUNK_STRUCTS_H
 
-#include "chipmunk/chipmunk.h"
+#include "chipmunk.h"
 
 struct cpArray {
 	int num, max;

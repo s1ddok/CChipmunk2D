@@ -26,7 +26,7 @@
 #	include <android/log.h>
 #endif
 
-#include "chipmunk/chipmunk_private.h"
+#include "chipmunk_private.h"
 
 void
 cpMessage(const char *condition, const char *file, int line, int isError, int isHardError, const char *message, ...)
@@ -328,4 +328,4 @@ cpBool cpSpaceShapeQuery_b(cpSpace *space, cpShape *shape, cpSpaceShapeQueryBloc
 #endif
 #endif
 
-#include "chipmunk/chipmunk_ffi.h"
+#include "chipmunk_ffi.h"

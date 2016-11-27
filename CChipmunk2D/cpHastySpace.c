@@ -10,8 +10,8 @@
 #include <sys/sysctl.h>
 #endif
 
-#include "chipmunk/chipmunk_private.h"
-#include "chipmunk/cpHastySpace.h"
+#include "chipmunk_private.h"
+#include "cpHastySpace.h"
 
 
 //MARK: ARM NEON Solver
