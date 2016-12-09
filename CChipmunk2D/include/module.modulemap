@@ -2,5 +2,6 @@ module CChipmunk2D {
   header "chipmunk_private.h"
   header "chipmunk.h"
   header "cpHastySpace.h"
+  link "CChipmunk2D"
   export *
 }
